@@ -1,0 +1,260 @@
+/*estilização do banner*/
+*{
+    text-align: center;
+}
+.banner {
+  background-image:
+    url(../assets/images/banner.png)
+    , linear-gradient(
+      rgb(0, 0, 0),
+        rgb(0, 35, 49) 51.555%,
+      rgb(0, 0, 0)
+    );    
+
+  background-size: cover;
+    background-position: center;
+         height: 600px;
+             display: flex;
+        align-items: center;
+    justify-content: center;
+margin: 0%;
+  
+}
+
+#logocss {
+    width: 248px;
+        height: 214px;
+         top: 27px;
+            left: 131px;
+    /* Ajuste de tamanho da imagem */;
+                 display: flex;
+                    justify-content: center; /* alinha no centro horizontal */
+                align-items: center; 
+             background-position: center;
+         width: 240px;
+         height: 240px;
+    background-color:rgba(0, 0, 0, 0.2);
+    border-radius:50%;
+    margin: 0%;
+    padding: 20px;
+}
+
+.banner-content {
+    width: 510;
+    height: 393;
+top: 56px;
+left: 465px;
+gap: 16px;
+
+}
+
+
+
+.banner-content {
+    font-family: Raleway, sans-serif;
+    background: linear-gradient ( #00b09b, #96c93d);
+    color: white;
+    text-align: center;
+    
+    border-bottom: #00b09b;
+}
+
+h1{
+  background: linear-gradient( #33A8DB, #0F1B5F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  font-size: 40px;  
+} 
+p {
+  font-size: 20px;
+}
+
+button {
+  background: linear-gradient( #33A8DB, #0F1B5F);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+border: #00b09b solid 1px;
+    width: 326;
+height: 57;
+top: 473px;
+left: 557px;
+border-width: 2px;
+padding-top: 19px;
+padding-right: 91px;
+padding-bottom: 19px;
+padding-left: 91px;
+gap: 31px;
+margin-bottom: 10px;
+  font-family: Raleway, sans-serif;
+    font-size: 16px;
+     font-weight: bold;           /* negrito */ 
+}
+
+main{
+    border-top: #00b09b solid 1px;
+    background-color: black;
+    color: white;
+    border: 1px 1px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+footer {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+
+
+
+
+.divCor{
+    background-color: black;
+    color: white;
+}
+.logo{
+width: auto;
+top: 27px;
+left: 131px;
+    display: flex;
+    justify-content: center; /* alinha no centro horizontal */
+    align-items: center; 
+    background-position: center;
+}
+body{
+    margin: auto;
+    padding: auto;
+}
+
+/* estilização do main*/
+#course-content {
+top: 669px;
+left: 332px;
+gap: 24px;
+
+padding-bottom: 50px;
+
+width: 477;
+height: 38;
+
+}
+
+.principalH2{
+    background-color:black ;
+   margin-top: 30px;
+   padding: 10px;
+   font-family: Raleway;
+font-weight: 700;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: 19%;
+    color: #00b09b;
+}
+
+.principalP{
+width: 792;
+height: 38;
+font-family: Raleway;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+margin: 16px 80px;
+}
+
+span {
+    color: #00b09b;
+}
+.module1, .module2, .module3 {
+    background-color: rgb(34, 34, 34);;
+    padding: 10px;
+    margin: 10px auto;
+    width: 400px;
+    text-align: center center;
+    border-radius: 20px;
+    border: #00b09b solid 1px;
+    box-shadow: inset 0 6px 8px rgb(0, 0, 0);
+} 
+
+/*rodapé*/
+
+#transform-world p {
+    font-family: Raleway, sans-serif;
+font-weight: 900;
+font-size: px;
+line-height: 100%;
+letter-spacing: 0%;
+ text-shadow: 2px 2px 0 #00b09b;
+ text-align: left;
+ width: 200PX;
+ padding-left: 100px;
+ padding-top: 40px;
+
+    
+}
+#transform-world{ 
+    background-image: url(../assets/images/woman-code.png);
+    background-size: 1000px 300px;
+    height: 170px;
+    border:#00b09b solid 1px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#professional-challenges {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 50px;
+  letter-spacing: 19%;
+  text-align: center;
+  margin: 0;              /* remove todo espaço externo */
+  padding: 0;             /* remove espaço interno */
+  color: #00b09b;
+  background-color: black;
+}
+
+.h2PósFoto {
+   
+  position: relative;
+  top: -30px;
+}
+
+#professional-challenges p {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -10px;
+    font-family: Raleway, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: aliceblue;
+}
+
+ 
+footer {
+  background: linear-gradient(
+    to bottom,
+    rgb(0, 0, 0),
+    
+    rgb(1, 61, 88)
+
+  );
+
+  padding: 20px;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  margin-top:0 !important;
+  padding-top: 0 !important;
+  position: relative;
+  border-top: #00b09b solid 1px;
+  overflow: hidden;
+}
+
+#professional-challenges img{
+  margin: 0;
+  padding: 0;
+}
